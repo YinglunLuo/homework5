@@ -142,7 +142,9 @@ header{
 }
 
 .nav_links{
-  align-items: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -176,6 +178,8 @@ header{
 
   .nav_links{
     display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
   }
 
   .nav_item a{
